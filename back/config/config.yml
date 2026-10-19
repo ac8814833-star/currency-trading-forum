@@ -1,0 +1,55 @@
+app:
+  name: new_blog_project
+  port: :3000
+
+database:
+  dsn: root:CHANGE_ME@tcp(127.0.0.1:3306)/testnew?charset=utf8mb4&parseTime=True&loc=Local
+  MaxIdleConns: 11
+  MaxOpenConns: 114
+
+redis:
+  addr: localhost:6379
+  password: ""
+  db: 0
+
+jwt:
+  # 生产环境请通过 JWT_SECRET 注入，切勿提交真实密钥。
+  secret: ""
+  accessExpireMinutes: 120
+  refreshExpireDays: 7
+
+rabbitmq:
+  url: "amqp://guest:guest@localhost:5672/"
+  # v2 消息包含事件 ID 与状态版本；不要与旧版点赞队列混用。
+  queuename: "likes_sync_queue_v2"
+  ragIndexQueueName: "rag_index_queue"
+  # 点赞消费者数量；请求路径由 Redis 处理，消费者只异步持久化点赞状态。
+  likeWorkerCount: 4
+
+rag:
+  chromaURL: http://localhost:8000
+  elasticsearchURL: http://localhost:9200
+  collection: articles_rag
+  # 通过 RAG_DASHSCOPE_KEY 注入，切勿提交真实 API Key。
+  dashScopeKey: ""
+  dashScopeBase: https://dashscope.aliyuncs.com/compatible-mode/v1
+  chatModel: qwen-plus
+  embeddingModel: text-embedding-v3
+  rerankModel: gte-rerank
+  topK: 5
+  chunkSize: 400
+  chunkOverlap: 80
+  parentChunkSize: 1200
+  parentChunkOverlap: 160
+  indexSchemaVersion: 2
+  shortArticleThreshold: 800
+  autoIndex: true
+  syncIntervalSecond: 300
+  syncBatchSize: 50
+  fullSyncOnStart: true
+  bm25Enabled: true
+  parentChildEnabled: true
+  rerankEnabled: false
+  parentTopN: 20
+  maxChunksPerArticle: 3
+  rerankTopN: 5

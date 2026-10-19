@@ -1,0 +1,21 @@
+.env
+back/config/config.local.yml
+front/dist/
+front/node_modules/
+*.exe
+erl_crash.dump
+
+# Dependencies and Python caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local IDE settings
+.idea/
+
+# Local environment files
+.env.*
+!.env.example
+deploy/back/config.local.yml

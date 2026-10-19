@@ -1,0 +1,1001 @@
+{
+  "results": [
+    {
+      "id": "currency-infrastructure-01",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        11,
+        10,
+        8,
+        9,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 498
+    },
+    {
+      "id": "currency-infrastructure-02",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        11,
+        9,
+        10,
+        8,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 306
+    },
+    {
+      "id": "currency-infrastructure-03",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        10,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        11,
+        10,
+        9,
+        3,
+        8
+      ],
+      "expected_rank": 1,
+      "latency_ms": 291
+    },
+    {
+      "id": "currency-infrastructure-04",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        7,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        10,
+        9,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 3,
+      "latency_ms": 315
+    },
+    {
+      "id": "currency-infrastructure-05",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        7,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        11,
+        7,
+        8,
+        9,
+        3
+      ],
+      "expected_rank": 2,
+      "latency_ms": 261
+    },
+    {
+      "id": "currency-infrastructure-06",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        11,
+        9,
+        10,
+        8,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 313
+    },
+    {
+      "id": "internet-finance-01",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        11,
+        10,
+        9
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        8,
+        11,
+        3,
+        10,
+        9,
+        7
+      ],
+      "expected_rank": 1,
+      "latency_ms": 365
+    },
+    {
+      "id": "internet-finance-02",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        9,
+        11,
+        7,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        8,
+        9,
+        7,
+        11,
+        10
+      ],
+      "expected_rank": 1,
+      "latency_ms": 299
+    },
+    {
+      "id": "internet-finance-03",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        11,
+        8,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        11,
+        8,
+        10,
+        7,
+        3
+      ],
+      "expected_rank": 3,
+      "latency_ms": 311
+    },
+    {
+      "id": "internet-finance-04",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        11,
+        9,
+        7
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        8,
+        11,
+        10,
+        9,
+        7
+      ],
+      "expected_rank": 1,
+      "latency_ms": 285
+    },
+    {
+      "id": "internet-finance-05",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        7,
+        9,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        8,
+        7,
+        9,
+        11,
+        10,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 360
+    },
+    {
+      "id": "internet-finance-06",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        8,
+        9,
+        11,
+        10,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 285
+    },
+    {
+      "id": "digital-wallet-01",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        11,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        8,
+        11,
+        7,
+        3,
+        10
+      ],
+      "expected_rank": 1,
+      "latency_ms": 265
+    },
+    {
+      "id": "digital-wallet-02",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        11,
+        8,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        11,
+        10,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 292
+    },
+    {
+      "id": "digital-wallet-03",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        11,
+        7
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        10,
+        8,
+        11,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 249
+    },
+    {
+      "id": "digital-wallet-04",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        10,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        8,
+        10,
+        11,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 310
+    },
+    {
+      "id": "digital-wallet-05",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        10,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        11,
+        10,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 297
+    },
+    {
+      "id": "digital-wallet-06",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        10,
+        11,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        10,
+        11,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 271
+    },
+    {
+      "id": "safe-money-01",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        8,
+        7
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        9,
+        8,
+        11,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 299
+    },
+    {
+      "id": "safe-money-02",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        7,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        9,
+        11,
+        7,
+        8,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 294
+    },
+    {
+      "id": "safe-money-03",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        9,
+        8,
+        11
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        9,
+        11,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 281
+    },
+    {
+      "id": "safe-money-04",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        9,
+        7
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        8,
+        9,
+        3,
+        11,
+        7
+      ],
+      "expected_rank": 1,
+      "latency_ms": 301
+    },
+    {
+      "id": "safe-money-05",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        9,
+        7,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        11,
+        8,
+        7,
+        9,
+        3
+      ],
+      "expected_rank": 2,
+      "latency_ms": 278
+    },
+    {
+      "id": "safe-money-06",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        9,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        7,
+        11,
+        8,
+        9,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 295
+    },
+    {
+      "id": "financial-rebuild-01",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        7,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        10,
+        8,
+        3,
+        7,
+        9
+      ],
+      "expected_rank": 1,
+      "latency_ms": 294
+    },
+    {
+      "id": "financial-rebuild-02",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        7,
+        8,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        9,
+        10,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 719
+    },
+    {
+      "id": "financial-rebuild-03",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        7,
+        8,
+        9
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        7,
+        10,
+        9,
+        8,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 477
+    },
+    {
+      "id": "financial-rebuild-04",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        9,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        9,
+        10,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 518
+    },
+    {
+      "id": "financial-rebuild-05",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        9,
+        11,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        9,
+        11,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 3,
+      "latency_ms": 254
+    },
+    {
+      "id": "financial-rebuild-06",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        9,
+        7,
+        8
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        9,
+        10,
+        8,
+        7,
+        3
+      ],
+      "expected_rank": 1,
+      "latency_ms": 276
+    },
+    {
+      "id": "no-answer-live-usd-cny",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        9,
+        8,
+        7,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        9,
+        11,
+        8,
+        10,
+        7,
+        3
+      ],
+      "expected_rank": 0,
+      "latency_ms": 288
+    },
+    {
+      "id": "no-answer-fed-decision",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        7,
+        11,
+        8,
+        10
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        10,
+        8,
+        11,
+        9
+      ],
+      "expected_rank": 0,
+      "latency_ms": 362
+    },
+    {
+      "id": "no-answer-stock-pick",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        7,
+        10,
+        8,
+        9
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        7,
+        10,
+        11,
+        9,
+        8,
+        3
+      ],
+      "expected_rank": 0,
+      "latency_ms": 301
+    },
+    {
+      "id": "no-answer-usdc-market-cap",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        10,
+        11,
+        8,
+        9
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        11,
+        10,
+        3,
+        9,
+        8,
+        7
+      ],
+      "expected_rank": 0,
+      "latency_ms": 286
+    },
+    {
+      "id": "no-answer-gold-price",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        10,
+        11,
+        7
+      ],
+      "hit_sources": [
+        "hybrid",
+        "hybrid",
+        "hybrid"
+      ],
+      "es_article_ids": [
+        10,
+        11,
+        7,
+        9,
+        8
+      ],
+      "expected_rank": 0,
+      "latency_ms": 281
+    }
+  ],
+  "summary": {
+    "answerable_cases": 30,
+    "errors": 0,
+    "hit_at_1": 25,
+    "hit_at_3": 30,
+    "hit_at_5": 30,
+    "mrr": 0.9,
+    "p50_retrieval_ms": 295,
+    "p95_retrieval_ms": 498,
+    "total_cases": 35
+  }
+}

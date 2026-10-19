@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>星汇论坛 · Currency Forum</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="bg-stars" id="bg-stars"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script>
+      (function () {
+        var container = document.getElementById('bg-stars');
+        if (!container) return;
+        var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var smallScreen = window.matchMedia('(max-width: 600px)').matches;
+        for (var i = 0; i < (reducedMotion ? 0 : smallScreen ? 32 : 72); i++) {
+          var star = document.createElement('div');
+          star.className = 'star';
+          star.style.left = Math.random() * 100 + '%';
+          star.style.top = Math.random() * 100 + '%';
+          star.style.setProperty('--drift', (Math.random() * 6 - 3) + 'px');
+          star.style.setProperty('--drift-y', (Math.random() * 6 - 3) + 'px');
+          star.style.animationDelay = Math.random() * 8 + 's';
+          star.style.animationDuration = (3 + Math.random() * 5) + 's';
+          var size = 1.5 + Math.random() * 3;
+          star.style.width = size + 'px';
+          star.style.height = size + 'px';
+          container.appendChild(star);
+        }
+        for (var j = 0; j < (reducedMotion || smallScreen ? 0 : 3); j++) {
+          var orb = document.createElement('div');
+          orb.className = 'bg-orb';
+          orb.style.left = (10 + Math.random() * 80) + '%';
+          orb.style.top = (10 + Math.random() * 80) + '%';
+          orb.style.width = (120 + Math.random() * 200) + 'px';
+          orb.style.height = orb.style.width;
+          orb.style.animationDelay = Math.random() * 10 + 's';
+          orb.style.animationDuration = (8 + Math.random() * 10) + 's';
+          container.appendChild(orb);
+        }
+      })();
+    </script>
+  </body>
+</html>

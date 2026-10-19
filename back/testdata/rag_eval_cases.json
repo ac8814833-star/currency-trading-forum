@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "description": "基于本地论坛中编号 7-11 的金融文章整理的 35 条人工标注问题。答得出的问题应召回并引用标注文档；实时行情和文中未覆盖的问题应拒答。",
+  "cases": [
+    {
+      "id": "currency-infrastructure-01",
+      "question": "文章如何概括全球经济基础设施正在发生的变化？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "currency-infrastructure-02",
+      "question": "文中提到的达沃斯论坛发生在哪一年？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "currency-infrastructure-03",
+      "question": "世界经济论坛邀请了哪些类型的专家讨论货币未来？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "currency-infrastructure-04",
+      "question": "文章列举了哪些案例来说明货币体系可能被重构？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "currency-infrastructure-05",
+      "question": "地缘政治变化与货币未来之间在文中有什么关系？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "currency-infrastructure-06",
+      "question": "文章认为世界正在如何应对全球经济运行方式的变化？",
+      "expected_article_ids": [7],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-01",
+      "question": "Circle 运营的受监管稳定币叫什么？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-02",
+      "question": "阿莱尔希望未来支付体验像什么一样简单？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-03",
+      "question": "文中对所有货币数字化的预测是什么？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-04",
+      "question": "所谓互联网金融体系希望为个人和企业带来什么能力？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-05",
+      "question": "Circle 如何向冲突中流离失所的难民发放数字援助？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "internet-finance-06",
+      "question": "文章认为数字美元援助为什么能减少截留和腐败？",
+      "expected_article_ids": [8],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-01",
+      "question": "文中希望数字钱包提供怎样的使用体验？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-02",
+      "question": "文章如何描述数字资产与传统银行中间环节的区别？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-03",
+      "question": "发展中国家使用移动货币的例子说明了什么机会？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-04",
+      "question": "文中说创作者可以怎样获得稳定币形式的报酬？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-05",
+      "question": "数字货币最常见的误解是什么？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "digital-wallet-06",
+      "question": "为什么文章认为数字货币交易在理论上更容易追踪？",
+      "expected_article_ids": [9],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-01",
+      "question": "文中认为哪些因素会加剧货币体系的动荡？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-02",
+      "question": "在制裁风险下，黄金为什么会被视为更安全的资产？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-03",
+      "question": "文章怎样描述比特币等数字货币与政府掌控之间的关系？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-04",
+      "question": "文中认为未来货币最关键的价值储藏问题是什么？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-05",
+      "question": "文章是否断言未来银行业一定会完全数字化？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "safe-money-06",
+      "question": "文中如何界定 AI 投资泡沫真正出现的风险？",
+      "expected_article_ids": [10],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-01",
+      "question": "文章预计 2026 年会融合哪三项趋势？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-02",
+      "question": "为什么文中把货币代币化称作金融体系的重构？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-03",
+      "question": "代币化货币准备替代传统银行间的哪种结算方式？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-04",
+      "question": "区块链上的货币转账在时间与记录可追溯性方面有什么特点？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-05",
+      "question": "货币数字化要安全落地还依赖什么外部条件？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "financial-rebuild-06",
+      "question": "文中认为 SWIFT 和现有区块链网络面临什么扩展性问题？",
+      "expected_article_ids": [11],
+      "expect_answerable": true
+    },
+    {
+      "id": "no-answer-live-usd-cny",
+      "question": "今天美元兑人民币的实时汇率是多少？",
+      "expect_answerable": false,
+      "notes": "论坛文章不是实时行情来源。"
+    },
+    {
+      "id": "no-answer-fed-decision",
+      "question": "美联储下周会把利率调整到多少？",
+      "expect_answerable": false,
+      "notes": "文章没有未来政策决定。"
+    },
+    {
+      "id": "no-answer-stock-pick",
+      "question": "现在最值得买入的股票是哪一只？",
+      "expect_answerable": false,
+      "notes": "论坛语料没有个股推荐依据。"
+    },
+    {
+      "id": "no-answer-usdc-market-cap",
+      "question": "USDC 今天的市值是多少？",
+      "expect_answerable": false,
+      "notes": "文章提到 USDC，但没有实时市值。"
+    },
+    {
+      "id": "no-answer-gold-price",
+      "question": "明天黄金现货价格会是多少？",
+      "expect_answerable": false,
+      "notes": "文章讨论黄金的避险属性，不提供预测价格。"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+app:
+  name: new_blog_project
+  port: :3000
+
+database:
+  dsn: root:CHANGE_ME@tcp(mysql:3306)/testnew?charset=utf8mb4&parseTime=True&loc=Local
+  MaxIdleConns: 11
+  MaxOpenConns: 114
+
+redis:
+  addr: redis:6379
+  password: ""
+  db: 0
+
+rabbitmq:
+  url: "amqp://guest:guest@rabbitmq:5672/"
+  # v2 消息包含事件 ID 与状态版本；不要与旧版点赞队列混用。
+  queuename: "likes_sync_queue_v2"
+  ragIndexQueueName: "rag_index_queue"
+  likeWorkerCount: 4
+
+jwt:
+  # 通过 JWT_SECRET 注入，切勿提交真实密钥。
+  secret: ""
+  accessExpireMinutes: 120
+  refreshExpireDays: 7
+
+rag:
+  chromaURL: http://chroma:8000
+  elasticsearchURL: http://elasticsearch:9200
+  collection: articles_rag
+  dashScopeKey: ""
+  dashScopeBase: https://dashscope.aliyuncs.com/compatible-mode/v1
+  chatModel: qwen-max
+  embeddingModel: text-embedding-v3
+  topK: 5  
+  chunkSize: 400
+  chunkOverlap: 80
+  parentChunkSize: 1200
+  parentChunkOverlap: 160
+  indexSchemaVersion: 2
+  shortArticleThreshold: 800
+  autoIndex: true
+  syncIntervalSecond: 300
+  syncBatchSize: 50
+  fullSyncOnStart: true
+  bm25Enabled: true
+  parentChildEnabled: true
+  parentTopN: 20
+  maxChunksPerArticle: 3
+  

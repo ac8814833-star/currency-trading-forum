@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-26T13:52:25.570869Z",
+  "suite_version": 1,
+  "suite_description": "基于本地论坛中编号 7-11 的金融文章整理的 35 条人工标注问题。答得出的问题应召回并引用标注文档；实时行情和文中未覆盖的问题应拒答。",
+  "pricing": {
+    "input_price_per_million_tokens": 0,
+    "output_price_per_million_tokens": 0
+  },
+  "cost_estimated": false,
+  "summary": {
+    "total_cases": 3,
+    "answerable_cases": 3,
+    "no_answer_cases": 0,
+    "cases_with_errors": 0,
+    "retrieval_hit_cases": 3,
+    "citation_correct_cases": 3,
+    "no_answer_correct_cases": 0,
+    "recall_at_k": 1,
+    "citation_correctness": 1,
+    "no_answer_accuracy": 0,
+    "average_total_latency_ms": 12875.333333333334,
+    "p50_total_latency_ms": 8430,
+    "p95_total_latency_ms": 27373,
+    "estimated_total_cost_cny": 0
+  },
+  "results": [
+    {
+      "id": "currency-infrastructure-01",
+      "question": "文章如何概括全球经济基础设施正在发生的变化？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10,
+        8
+      ],
+      "citation_article_ids": [
+        7,
+        10,
+        11,
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 294,
+      "generation_latency_ms": 27078,
+      "total_latency_ms": 27373,
+      "estimated_input_tokens": 2152,
+      "estimated_output_tokens": 666,
+      "estimated_cost_cny": 0,
+      "answer": "文章对全球经济基础设施变化的核心概括是：“**全球经济基础设施正在分崩离析，但世界正在适应这一现实**” [文章 7]。这是渣打银行首席执行官温拓思提出的观点，他认为虽然商业运作已不再如常，但各方正在调整以应对变化 [文章 7]。\n\n具体而言，文章通过多位专家的观点与相关事实，从以下几个维度阐述了这种变化与重构：\n\n1. **宏观格局与地缘政治变动**：文章陈述了地缘政治格局持续变动、全球经济经历深刻转型的事实 [文章 7]。全球宏观投资者瑞·达利欧认为，全球治理体系正从多边转向单边，叠加债务负担上升，加剧了风险感知并使货币体系面临动荡 [文章 10]。温拓思也预见了经济和金融层面的多极化发展 [文章 11]。\n2. **货币数字化与金融体系重构**：温拓思将向代币化货币的全面转型称为“金融体系的重构”，认为传统银行的“隔夜结算”将被稳定币或央行数字货币等即时转账所取代，从而提升效率与安全性 [文章 11]。Circle首席执行官杰里米·阿莱尔预言“所有货币都将数字化”，并将其称为实现货币民主化的“互联网金融体系”，设想未来的支付体验将如同发送消息般简单、即时且低成本 [文章 8]。\n3. **安全资产与信任机制重塑**：达利欧指出，当前的动荡环境推高了对黄金以及比特币等难以被政府没收或掌控的资产的需求 [文章 10]。他判断，货币的未来终究取决于何种资产能成为值得信赖的“价值储藏工具” [文章 10]。\n4. **技术驱动与基础设施扩展**：温拓思将AI的规模化应用视为未来的重大变革趋势之一 [文章 11]。此外文章指出，现有区块链网络规模尚不足以应对未来交易量，需要基础网络（如SWIFT正在开发自己的区块链支付网络）的扩展，且相关的全球监管框架目前尚未建立 [文章 11]。"
+    },
+    {
+      "id": "currency-infrastructure-02",
+      "question": "文中提到的达沃斯论坛发生在哪一年？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 361,
+      "generation_latency_ms": 2461,
+      "total_latency_ms": 2823,
+      "estimated_input_tokens": 1757,
+      "estimated_output_tokens": 27,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，文中提到的达沃斯论坛发生在2026年 [文章 7]。"
+    },
+    {
+      "id": "currency-infrastructure-03",
+      "question": "世界经济论坛邀请了哪些类型的专家讨论货币未来？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 303,
+      "generation_latency_ms": 8127,
+      "total_latency_ms": 8430,
+      "estimated_input_tokens": 1763,
+      "estimated_output_tokens": 152,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容，世界经济论坛邀请了以下四位专家（涵盖数字资产机构、投资基金和传统银行的高管及负责人）来讨论货币的未来 [文章 7]：\n\n1. **Circle首席执行官**：杰里米·阿莱尔 [文章 7]\n2. **恒星发展基金会首席执行官兼执行董事**：丹妮尔·迪克森 [文章 7]\n3. **桥水基金首席投资官**：瑞·达利欧 [文章 7]\n4. **渣打银行首席执行官**：温拓思 [文章 7]"
+    }
+  ]
+}

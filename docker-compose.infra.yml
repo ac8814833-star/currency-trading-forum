@@ -1,0 +1,63 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: forum-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}"
+      MYSQL_DATABASE: testnew
+    ports:
+      - "3306:3306"
+    command:
+      - "--default-authentication-plugin=mysql_native_password"
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+    volumes:
+      - forum_mysql_data:/var/lib/mysql
+
+  redis:
+    image: redis:7
+    container_name: forum-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes", "--appendfsync", "everysec", "--maxmemory-policy", "noeviction"]
+    volumes:
+      - forum_redis_data:/data
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: forum-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    restart: unless-stopped
+
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: forum-chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - forum_chroma_data:/chroma/chroma
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    container_name: forum-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - forum_es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q green || curl -s http://localhost:9200/_cluster/health | grep -q yellow"]
+      interval: 5s
+      timeout: 10s
+      retries: 30
+
+volumes:
+  forum_mysql_data:
+  forum_redis_data:
+  forum_chroma_data:
+  forum_es_data:

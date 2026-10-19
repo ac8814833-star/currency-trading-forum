@@ -1,0 +1,1022 @@
+{
+  "generated_at": "2026-09-26T14:11:22.0491027Z",
+  "suite_version": 1,
+  "suite_description": "基于本地论坛中编号 7-11 的金融文章整理的 35 条人工标注问题。答得出的问题应召回并引用标注文档；实时行情和文中未覆盖的问题应拒答。",
+  "pricing": {
+    "input_price_per_million_tokens": 0,
+    "output_price_per_million_tokens": 0
+  },
+  "cost_estimated": false,
+  "summary": {
+    "total_cases": 35,
+    "answerable_cases": 30,
+    "no_answer_cases": 5,
+    "cases_with_errors": 0,
+    "retrieval_hit_cases": 30,
+    "citation_correct_cases": 30,
+    "no_answer_correct_cases": 5,
+    "recall_at_k": 1,
+    "citation_correctness": 1,
+    "no_answer_accuracy": 1,
+    "average_total_latency_ms": 10617.228571428572,
+    "p50_total_latency_ms": 10107,
+    "p95_total_latency_ms": 23547,
+    "estimated_total_cost_cny": 0
+  },
+  "results": [
+    {
+      "id": "currency-infrastructure-01",
+      "question": "文章如何概括全球经济基础设施正在发生的变化？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10,
+        8
+      ],
+      "citation_article_ids": [
+        7,
+        11,
+        8,
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 472,
+      "generation_latency_ms": 16743,
+      "total_latency_ms": 17216,
+      "estimated_input_tokens": 2152,
+      "estimated_output_tokens": 437,
+      "estimated_cost_cny": 0,
+      "answer": "根据提供的文章，多位专家对全球经济基础设施正在发生的变化提出了以下观点和概括：\n\n1. **总体判断**：渣打银行首席执行官温拓思认为，全球经济基础设施正在分崩离析，但世界正在适应这一现实 [文章 7]。\n2. **三大趋势融合**：温拓思预见全球经济正经历三大趋势的融合，即经济和金融层面的多极化发展、货币数字化，以及AI的规模化应用 [文章 11]。\n3. **金融与货币体系重构**：\n   * 温拓思将向代币化货币的全面转型称为“金融体系的重构”，认为传统银行的“隔夜结算”将被稳定币或央行数字货币等形式的即时、全天候转账所取代 [文章 11]。\n   * Circle首席执行官杰里米·阿莱尔预言“所有货币都将数字化”，并认为未来金融体系将实现货币民主化，形成“互联网金融体系” [文章 8]。\n4. **地缘政治与宏观环境动荡**：全球宏观投资者瑞·达利欧指出，地缘政治与全球治理体系正从多边转向单边，当前的法定货币体系面临债务负担上升与地缘政治紧张局势加剧的双重威胁，货币体系将面临动荡 [文章 10]。 \n\n（注：以上内容均为文章中引用的专家观点与论述 [文章 7] [文章 8] [文章 10] [文章 11]。）"
+    },
+    {
+      "id": "currency-infrastructure-02",
+      "question": "文中提到的达沃斯论坛发生在哪一年？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 422,
+      "generation_latency_ms": 3081,
+      "total_latency_ms": 3503,
+      "estimated_input_tokens": 1757,
+      "estimated_output_tokens": 20,
+      "estimated_cost_cny": 0,
+      "answer": "文中提到的达沃斯论坛发生在2026年 [文章 7]。"
+    },
+    {
+      "id": "currency-infrastructure-03",
+      "question": "世界经济论坛邀请了哪些类型的专家讨论货币未来？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 308,
+      "generation_latency_ms": 10253,
+      "total_latency_ms": 10562,
+      "estimated_input_tokens": 1763,
+      "estimated_output_tokens": 115,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，世界经济论坛邀请了以下四位专家讨论货币的未来：\n\n1. Circle首席执行官杰里米·阿莱尔 [文章 7]；\n2. 恒星发展基金会首席执行官兼执行董事丹妮尔·迪克森 [文章 7]；\n3. 桥水基金首席投资官瑞·达利欧 [文章 7]；\n4. 渣打银行首席执行官温拓思 [文章 7]。"
+    },
+    {
+      "id": "currency-infrastructure-04",
+      "question": "文章列举了哪些案例来说明货币体系可能被重构？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        7,
+        8
+      ],
+      "citation_article_ids": [
+        11,
+        10,
+        8,
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 287,
+      "generation_latency_ms": 23260,
+      "total_latency_ms": 23547,
+      "estimated_input_tokens": 2152,
+      "estimated_output_tokens": 573,
+      "estimated_cost_cny": 0,
+      "answer": "根据提供的文章，说明货币体系可能被重构的案例和场景可分为已被直接陈述的事实与专家的观点预见：\n\n**已陈述的事实案例：**\n1. **SWIFT开发区块链网络**：当前市场主流支付平台SWIFT正在开发自己的区块链支付网络，以扩展基础网络规模 [文章 11]。\n2. **地缘政治与贸易摩擦**：欧洲与美国围绕格陵兰岛问题发生贸易摩擦，此类事件加剧了风险感知并足以影响人们的买卖决策 [文章 10]。\n3. **难民数字援助**：Circle公司为俄乌冲突中流离失所的难民提供数字援助，收款人仅需移动设备即可接收数字美元即时到账，杜绝了现金流转中的截留与腐败行为 [文章 8]。\n\n**专家观点与预见中的案例/场景：**\n1. **隔夜结算被即时转账取代**：温拓思（温特斯）预见，传统银行间的“隔夜结算”将被稳定币、央行数字货币或其他数字货币的即时转账所取代，实现全天候可追溯的代币化货币转账 [文章 11]。\n2. **制裁背景下的安全资产选择**：瑞·达利欧指出，当各国实施制裁时，黄金因“更难被没收”被视为安全投资，而比特币等数字货币也因更难被政府掌控而受到关注 [文章 10]。\n3. **多维度的重构探讨场景**：在达沃斯论坛上，专家们通过探讨代币化美元、难民援助、黄金储备、数字钱包等具体场景，阐释了货币体系正如何被重构 [文章 7]。\n4. **“互联网金融体系”的普及**：杰里米·阿莱尔预言“所有货币都将数字化”，设想未来全球各地的个人和企业进行支付与资本获取将如同发送消息一样简单、即时且低成本 [文章 8]。"
+    },
+    {
+      "id": "currency-infrastructure-05",
+      "question": "地缘政治变化与货币未来之间在文中有什么关系？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        7,
+        11
+      ],
+      "citation_article_ids": [
+        10,
+        7,
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 343,
+      "generation_latency_ms": 20044,
+      "total_latency_ms": 20388,
+      "estimated_input_tokens": 1762,
+      "estimated_output_tokens": 561,
+      "estimated_cost_cny": 0,
+      "answer": "根据提供的文章，地缘政治变化与货币未来之间的关系主要体现在以下几个方面：\n\n1. **威胁现有法定货币体系并影响市场决策**：瑞·达利欧认为，当前的法定货币体系正面临地缘政治紧张局势加剧的威胁 [文章 10]。地缘政治与全球治理体系从多边转向单边加剧了风险感知，仅是对相关地缘政治摩擦的担忧就足以影响人们的买卖决策 [文章 10]。\n\n2. **改变“安全货币”的资产偏好与信任基础**：达利欧指出，地缘政治动荡（如各国实施制裁）推高了对黄金的需求，因为黄金被视为“更难被没收”的安全投资；同时，比特币等数字货币也更难被政府掌控 [文章 10]。他认为，货币的未来终究取决于何种资产能成为值得信赖的“价值储藏工具”，这直接受限于个人对政府的信任度以及政府对个人逃避监管的防范 [文章 10]。\n\n3. **推动全球货币体系的重构与适应**：渣打银行首席执行官温拓思提出，在地缘政治格局持续变动下，全球经济基础设施正在分崩离析，但各方正在调整适应 [文章 7]。这种地缘政治变动促使业界探讨货币体系的重构（涉及代币化美元、黄金储备、数字钱包等），并对信任、增长与包容性产生深远影响 [文章 7]。\n\n4. **影响货币数字化的监管框架发展**：温拓思认为，向代币化货币全面转型的“金融体系重构”取决于全球监管框架的建立 [文章 11]。目前，世界经济论坛的相关倡议正在专门研究地缘政治格局将如何影响数字货币与区块链领域的监管发展 [文章 11]。"
+    },
+    {
+      "id": "currency-infrastructure-06",
+      "question": "文章认为世界正在如何应对全球经济运行方式的变化？",
+      "expected_article_ids": [
+        7
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        7,
+        11,
+        10,
+        8
+      ],
+      "citation_article_ids": [
+        7,
+        11,
+        8,
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 292,
+      "generation_latency_ms": 26518,
+      "total_latency_ms": 26811,
+      "estimated_input_tokens": 2154,
+      "estimated_output_tokens": 504,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章提供的专家观点与事实陈述，世界正在通过以下方式应对全球经济运行方式的变化：\n\n1. **整体调整与适应**：渣打银行首席执行官温拓思指出，各方正在调整以适应全球经济基础设施分崩离析、商业运作不再如常的现实 [文章 7]。\n\n2. **重构金融体系与推进货币数字化**：\n   - 温拓思认为，世界正向代币化货币全面转型，用稳定币或央行数字货币的即时转账取代传统银行间的“隔夜结算”，以提升效率与安全性 [文章 11]。\n   - 现有主流支付平台（如SWIFT）正在开发自己的区块链支付网络以扩展基础网络，同时世界经济论坛等倡议正在探讨建立相关的全球监管框架 [文章 11]。\n   - Circle首席执行官杰里米·阿莱尔设想构建“互联网金融体系”以实现货币民主化，让全球个人和企业都能低成本、即时地交易和获取资本 [文章 8]。\n\n3. **应对地缘政治动荡与资产风险**：\n   - 瑞·达利欧指出，地缘政治紧张和债务上升推高了对黄金的需求，黄金被视为难以被没收的“安全投资”和价值储藏工具 [文章 10]。\n   - 达利欧同时提到，比特币等数字货币也因更难被政府掌控而受到关注 [文章 10]。\n\n4. **创新数字援助等应用场景**：\n   - 文章陈述了Circle公司的实际应用，即利用数字美元（稳定币）向难民直接发放援助，实现资金即时到账并杜绝腐败与现金截留 [文章 8]。"
+    },
+    {
+      "id": "internet-finance-01",
+      "question": "Circle 运营的受监管稳定币叫什么？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        11,
+        10,
+        9
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 351,
+      "generation_latency_ms": 2869,
+      "total_latency_ms": 3220,
+      "estimated_input_tokens": 2277,
+      "estimated_output_tokens": 18,
+      "estimated_cost_cny": 0,
+      "answer": "Circle 运营的受监管稳定币叫 USDC [文章 8]。"
+    },
+    {
+      "id": "internet-finance-02",
+      "question": "阿莱尔希望未来支付体验像什么一样简单？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        9,
+        11,
+        7,
+        10
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 322,
+      "generation_latency_ms": 4535,
+      "total_latency_ms": 4858,
+      "estimated_input_tokens": 2677,
+      "estimated_output_tokens": 46,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，阿莱尔预言（观点）未来的支付体验将如同发送消息或开启视频通话一样简单 [文章 8]。"
+    },
+    {
+      "id": "internet-finance-03",
+      "question": "文中对所有货币数字化的预测是什么？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        11,
+        8,
+        10
+      ],
+      "citation_article_ids": [
+        8,
+        11,
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 278,
+      "generation_latency_ms": 16258,
+      "total_latency_ms": 16537,
+      "estimated_input_tokens": 2279,
+      "estimated_output_tokens": 357,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，关于“所有货币数字化”及相关货币数字化的预测和观点如下：\n\n1. **杰里米·阿莱尔的预测**：他明确预言“所有货币都将数字化” [文章 8]。他预测：\n   - 支付体验将如同发送消息或开启视频通话一样简单，具备即时、全球化、低成本且后台操作近乎“无感”的特点 [文章 8]。\n   - 未来金融体系将实现货币民主化（他称之为“互联网金融体系”），全球各地的每个人、每家企业都将能够进行交易并获取资本 [文章 8]。\n\n2. **温拓思的预测**：他将货币数字化（向代币化货币的全面转型）视为“金融体系的重构” [文章 11]。他预测传统银行的“隔夜结算”将被数字货币形式的即时转账取代，实现全天候无休交易，从而带来巨大的效率提升和安全层面的重大改进 [文章 11]。\n\n3. **瑞·达利欧的观点**：与上述预测不同，他对全面数字化持保留态度，认为未来银行业是否会完全数字化目前仍未可知 [文章 10]。"
+    },
+    {
+      "id": "internet-finance-04",
+      "question": "所谓互联网金融体系希望为个人和企业带来什么能力？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        11,
+        9,
+        7
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 316,
+      "generation_latency_ms": 7035,
+      "total_latency_ms": 7352,
+      "estimated_input_tokens": 2039,
+      "estimated_output_tokens": 77,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章观点，杰里米·阿莱尔提出的“互联网金融体系”旨在实现货币民主化，其希望为全球各地的每个人和每家企业带来的能力是：**能够进行交易并获取资本** [文章 8]。"
+    },
+    {
+      "id": "internet-finance-05",
+      "question": "Circle 如何向冲突中流离失所的难民发放数字援助？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        7,
+        9,
+        10
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 454,
+      "generation_latency_ms": 11375,
+      "total_latency_ms": 11830,
+      "estimated_input_tokens": 2197,
+      "estimated_output_tokens": 235,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，Circle 向冲突（如俄乌冲突）中流离失所的难民发放数字援助的具体方式如下：\n\n* **发放方式**：通过创建的系统向已登记的难民直接发放援助 [文章 8]。\n* **获取条件**：登记难民只需持有移动设备即可获取资金 [文章 8]。\n* **资金形式**：援助款以数字美元的形式即时到账 [文章 8]。\n* **防腐败机制**：整个过程没有现金流转，无人能从中截留藏匿，从而杜绝了腐败行为 [文章 8]。\n* **资金使用**：收款人收到资金后，可以直接用于支付 [文章 8]。\n\n（注：以上为 Circle 首席执行官杰里米·阿莱尔直接陈述的事实与具体做法 [文章 8]。）"
+    },
+    {
+      "id": "internet-finance-06",
+      "question": "文章认为数字美元援助为什么能减少截留和腐败？",
+      "expected_article_ids": [
+        8
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        8,
+        9,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 314,
+      "generation_latency_ms": 9780,
+      "total_latency_ms": 10095,
+      "estimated_input_tokens": 2284,
+      "estimated_output_tokens": 155,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章直接陈述的事实，数字美元援助能减少截留和腐败的原因在于：\n\n1. **没有现金流转**：援助款以数字美元形式发放，不存在实体现金的流转，因此无人能够从中截留或藏匿资金 [文章 8]。\n2. **直接发放至个人**：系统能够向已登记的难民直接发放援助，收款人只需持有移动设备即可让资金即时到账并直接用于支付，避免了中间环节的干预 [文章 8]。"
+    },
+    {
+      "id": "digital-wallet-01",
+      "question": "文中希望数字钱包提供怎样的使用体验？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        9,
+        8
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 411,
+      "generation_latency_ms": 12396,
+      "total_latency_ms": 12808,
+      "estimated_input_tokens": 2280,
+      "estimated_output_tokens": 265,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，文中人物对数字钱包及支付使用体验的期望（观点）如下：\n\n1. **丹妮尔·迪克森（恒星发展基金会）的观点**：\n- 希望人们使用任何类型的数字钱包时，都能获得与当前支付方式相似的体验 [文章 9]。\n- 认为技术体验应当像使用移动支付或银行账户般自然，用户无需了解或知晓后台的区块链技术 [文章 9]。\n- 希望用户能轻松交易资产以获取所需价值，无论是兑换其他数字资产还是日常购物消费 [文章 9]。\n\n2. **杰里米·阿莱尔（Circle公司）的观点**：\n- 设想未来的货币流通与支付体验将如同发送消息或开启视频通话一样简单，具备即时、全球化、低成本且后台操作近乎“无感”的特点 [文章 8]。"
+    },
+    {
+      "id": "digital-wallet-02",
+      "question": "文章如何描述数字资产与传统银行中间环节的区别？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        11,
+        8,
+        10
+      ],
+      "citation_article_ids": [
+        9,
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 294,
+      "generation_latency_ms": 13056,
+      "total_latency_ms": 13351,
+      "estimated_input_tokens": 2285,
+      "estimated_output_tokens": 229,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，数字资产与传统银行在中间环节的区别主要体现在以下人物的观点与陈述中：\n\n1. **消除中间环节与资产所有权**：丹妮尔·迪克森强调，与传统银行业不同，数字资产领域“不存在中间环节”，并且“你就是资产所有者”，这能赋予个人更充分的金融自由 [文章 9]。\n2. **结算流程的区别**：温拓思（文中也称温特斯）指出，传统银行间存在“隔夜结算”环节，而货币数字化（如稳定币、央行数字货币等）代币化后，能通过区块链技术实现即时转账，从而取代传统的结算流程并带来巨大的效率提升 [文章 11]。"
+    },
+    {
+      "id": "digital-wallet-03",
+      "question": "发展中国家使用移动货币的例子说明了什么机会？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        11,
+        7
+      ],
+      "citation_article_ids": [
+        9
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 306,
+      "generation_latency_ms": 9885,
+      "total_latency_ms": 10192,
+      "estimated_input_tokens": 2037,
+      "estimated_output_tokens": 157,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，发展中国家使用移动货币的例子说明了以下机会：\n\n* **事实**：发展中国家早在西方国家采用移动支付前数年，就已经开始使用移动货币 [文章 9]。\n* **观点/判断**：恒星发展基金会的丹妮尔·迪克森认为，这蕴含着巨大的机遇，即如今的创作者能够将才华输往全球，并在本国以稳定币形式获得报酬（例如在非洲大陆或拉丁美洲地区） [文章 9]。"
+    },
+    {
+      "id": "digital-wallet-04",
+      "question": "文中说创作者可以怎样获得稳定币形式的报酬？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        8,
+        10,
+        11
+      ],
+      "citation_article_ids": [
+        9
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 314,
+      "generation_latency_ms": 8227,
+      "total_latency_ms": 8542,
+      "estimated_input_tokens": 2283,
+      "estimated_output_tokens": 81,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，创作者可以将才华输往全球，并在本国（例如在非洲大陆或拉丁美洲地区）以稳定币形式获得报酬 [文章 9]。这是丹妮尔·迪克森以发展中国家为例说明的观点 [文章 9]。"
+    },
+    {
+      "id": "digital-wallet-05",
+      "question": "数字货币最常见的误解是什么？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        10,
+        11
+      ],
+      "citation_article_ids": [
+        9
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 271,
+      "generation_latency_ms": 9192,
+      "total_latency_ms": 9463,
+      "estimated_input_tokens": 1886,
+      "estimated_output_tokens": 108,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，对数字货币最大的误解是认为它仅用于欺诈或洗钱（即“加密货币等同于犯罪”）[文章 9]。\n\n非营利组织恒星发展基金会的丹妮尔·迪克森指出，数字货币实际上“非常容易追踪”，从理论上讲这反而使犯罪行为更难实施 [文章 9]。"
+    },
+    {
+      "id": "digital-wallet-06",
+      "question": "为什么文章认为数字货币交易在理论上更容易追踪？",
+      "expected_article_ids": [
+        9
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        9,
+        10,
+        11,
+        8
+      ],
+      "citation_article_ids": [
+        11,
+        9
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 438,
+      "generation_latency_ms": 9795,
+      "total_latency_ms": 10234,
+      "estimated_input_tokens": 2285,
+      "estimated_output_tokens": 128,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章观点，数字货币交易在理论上更容易追踪的原因在于：货币实现代币化后，能够通过区块链技术进行转账，且每笔交易都会留下不可篡改的记录，从而实现完全可追溯和可观察 [文章 11]。\n\n此外，文章中也直接引述了相关人士的观点，指出数字货币实际上“非常容易追踪” [文章 9]。"
+    },
+    {
+      "id": "safe-money-01",
+      "question": "文中认为哪些因素会加剧货币体系的动荡？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        7,
+        8
+      ],
+      "citation_article_ids": [
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 300,
+      "generation_latency_ms": 8513,
+      "total_latency_ms": 8814,
+      "estimated_input_tokens": 2149,
+      "estimated_output_tokens": 167,
+      "estimated_cost_cny": 0,
+      "answer": "根据瑞·达利欧的观点，加剧货币体系动荡的因素主要包括以下两点：\n\n1. **债务负担上升**：当前由央行掌控的法定货币体系正面临债务负担上升的威胁 [文章 10]。\n2. **地缘政治紧张局势加剧**：包括地缘政治与全球治理体系从多边转向单边，以及国家间的贸易摩擦（如欧美围绕格陵兰岛问题的贸易摩擦）。此类事件及其引发的担忧会加剧风险感知并影响人们的买卖决策 [文章 10]。"
+    },
+    {
+      "id": "safe-money-02",
+      "question": "在制裁风险下，黄金为什么会被视为更安全的资产？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        7,
+        11
+      ],
+      "citation_article_ids": [
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 312,
+      "generation_latency_ms": 4172,
+      "total_latency_ms": 4485,
+      "estimated_input_tokens": 1763,
+      "estimated_output_tokens": 48,
+      "estimated_cost_cny": 0,
+      "answer": "根据瑞·达利欧的观点，在各国实施制裁时，黄金因为“更难被没收”而被视为更安全的投资资产 [文章 10]。"
+    },
+    {
+      "id": "safe-money-03",
+      "question": "文章怎样描述比特币等数字货币与政府掌控之间的关系？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        9,
+        8,
+        11
+      ],
+      "citation_article_ids": [
+        10,
+        9,
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 299,
+      "generation_latency_ms": 15280,
+      "total_latency_ms": 15580,
+      "estimated_input_tokens": 2287,
+      "estimated_output_tokens": 381,
+      "estimated_cost_cny": 0,
+      "answer": "根据提供的文章，关于比特币等数字货币与政府掌控之间的关系，主要有以下描述：\n\n1. **更难被政府掌控（观点）**：全球宏观投资者瑞·达利欧认为，比特币等数字货币与黄金类似，更难被政府“掌控” [文章 10]。\n2. **信任与监管的博弈（观点）**：达利欧指出，个人可能觉得无法信任政府，或者政府认为个人试图转移资金以逃避监管，这种相互博弈使得未来银行业是否会完全数字化仍未可知 [文章 10]。\n3. **去中间化赋予金融自由（观点）**：丹妮尔·迪克森认为，与传统银行业不同，数字资产领域“不存在中间环节”，个人即为资产所有者，这赋予了用户更充分的金融自由 [文章 9]。\n4. **交易记录易于追踪（观点/事实）**：尽管数字货币具有去中心化特征，但迪克森指出数字货币实际上“非常容易追踪”，理论上使犯罪行为更难实施 [文章 9]。温拓思也指出，货币一旦通过区块链技术实现代币化，每笔交易都会留下不可篡改的记录，完全可追溯和观察 [文章 11]。"
+    },
+    {
+      "id": "safe-money-04",
+      "question": "文中认为未来货币最关键的价值储藏问题是什么？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        9,
+        7
+      ],
+      "citation_article_ids": [
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 271,
+      "generation_latency_ms": 10066,
+      "total_latency_ms": 10338,
+      "estimated_input_tokens": 2289,
+      "estimated_output_tokens": 137,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，瑞·达利欧认为未来货币最关键的价值储藏问题在于**何种资产能成为值得信赖的“价值储藏工具”**（无论是黄金、纸币、稳定币还是其他数字货币）[文章 10]。\n\n同时，他指出这一问题的核心在于**信任缺失**，即“个人可能觉得无法信任政府，或者政府认为个人试图转移资金逃避监管”[文章 10]。"
+    },
+    {
+      "id": "safe-money-05",
+      "question": "文章是否断言未来银行业一定会完全数字化？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        9,
+        7,
+        8
+      ],
+      "citation_article_ids": [
+        10,
+        8,
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 305,
+      "generation_latency_ms": 9340,
+      "total_latency_ms": 9646,
+      "estimated_input_tokens": 2678,
+      "estimated_output_tokens": 223,
+      "estimated_cost_cny": 0,
+      "answer": "文章并未断言未来银行业一定会完全数字化。\n\n相反，全球宏观投资者兼作家瑞·达利欧明确指出，未来银行业是否会完全数字化“仍未可知”[文章 10]。\n\n虽然文章中也记录了其他专家对数字化的预测（属于专家观点，而非已确定的事实），例如：\n- 杰里米·阿莱尔预言“所有货币都将数字化”[文章 8]；\n- 温拓思认为传统银行间的“隔夜结算”将被稳定币、央行数字货币等形式的即时转账所取代[文章 11]。\n\n但这些观点主要聚焦于货币形态与支付结算方式的数字化，并未断言银行业本身一定会完全数字化。"
+    },
+    {
+      "id": "safe-money-06",
+      "question": "文中如何界定 AI 投资泡沫真正出现的风险？",
+      "expected_article_ids": [
+        10
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        11,
+        9,
+        8
+      ],
+      "citation_article_ids": [
+        10
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 292,
+      "generation_latency_ms": 10469,
+      "total_latency_ms": 10762,
+      "estimated_input_tokens": 2281,
+      "estimated_output_tokens": 154,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，全球宏观投资者瑞·达利欧对 AI 投资泡沫风险的界定如下：\n\n*   **观点**：达利欧认为，真正的风险在于当投资者根据企业的“潜力”而非“现金流”来为企业估值时，便是在“创造虚拟财富” [文章 10]。\n*   **事实**：文章明确陈述，达利欧指出当前 AI 周期“尚未形成显著泡沫”，但他认为上述创造虚拟财富的现象“终将发生” [文章 10]。"
+    },
+    {
+      "id": "financial-rebuild-01",
+      "question": "文章预计 2026 年会融合哪三项趋势？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        10,
+        7,
+        8
+      ],
+      "citation_article_ids": [
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 442,
+      "generation_latency_ms": 7215,
+      "total_latency_ms": 7657,
+      "estimated_input_tokens": 2146,
+      "estimated_output_tokens": 69,
+      "estimated_cost_cny": 0,
+      "answer": "根据渣打银行首席经济学家温拓思的观点，2026年预计将融合以下三项趋势 [文章 11]：\n\n1. 在经济和金融层面的多极化发展；\n2. 货币数字化；\n3. AI的规模化应用。"
+    },
+    {
+      "id": "financial-rebuild-02",
+      "question": "为什么文中把货币代币化称作金融体系的重构？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        7,
+        8,
+        10
+      ],
+      "citation_article_ids": [
+        11,
+        8,
+        7
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 319,
+      "generation_latency_ms": 19384,
+      "total_latency_ms": 19703,
+      "estimated_input_tokens": 2151,
+      "estimated_output_tokens": 446,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，渣打银行首席执行官温拓思（文中也称温特斯）将向代币化货币的全面转型称为“金融体系的重构”，主要基于以下原因和专家观点：\n\n1. **结算方式的颠覆**：温拓思认为，传统银行间的“隔夜结算”将被稳定币、央行数字货币或其他数字货币形式的即时转账所取代 [文章 11]。\n2. **交易效率与安全性的提升**：他指出，货币代币化能通过区块链技术实现点对点或跨币种的即时转账，且全天候无休；每笔交易都会留下不可篡改的记录，完全可追溯和观察，从而带来巨大的效率提升和安全改进 [文章 11]。\n3. **支付体验的变革**：Circle首席执行官杰里米·阿莱尔认为，货币数字化将使支付体验变得即时、全球化、低成本且后台操作近乎“无感” [文章 8]。\n4. **实现货币民主化与普惠**：阿莱尔提出，未来的“互联网金融体系”将实现货币民主化，让全球各地的每个人和每家企业都能进行交易并获取资本 [文章 8]；此外，数字资金发放能杜绝现金流转中的腐败和截留行为 [文章 8]。\n5. **对宏观层面的深远影响**：在达沃斯论坛上，专家们一致认为货币体系的重构将对信任、增长与包容性产生深远影响 [文章 7]。"
+    },
+    {
+      "id": "financial-rebuild-03",
+      "question": "代币化货币准备替代传统银行间的哪种结算方式？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        7,
+        8,
+        9
+      ],
+      "citation_article_ids": [
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 275,
+      "generation_latency_ms": 4484,
+      "total_latency_ms": 4761,
+      "estimated_input_tokens": 2037,
+      "estimated_output_tokens": 64,
+      "estimated_cost_cny": 0,
+      "answer": "根据渣打银行首席经济学家温拓思（文中也称温特斯）的观点，代币化货币准备替代传统银行间的“隔夜结算”方式，转变为即时转账 [文章 11]。"
+    },
+    {
+      "id": "financial-rebuild-04",
+      "question": "区块链上的货币转账在时间与记录可追溯性方面有什么特点？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        9,
+        10
+      ],
+      "citation_article_ids": [
+        11,
+        9
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 272,
+      "generation_latency_ms": 10617,
+      "total_latency_ms": 10889,
+      "estimated_input_tokens": 1899,
+      "estimated_output_tokens": 241,
+      "estimated_cost_cny": 0,
+      "answer": "根据提供的文章，区块链上的货币转账在时间与记录可追溯性方面具有以下特点：\n\n**时间方面：**\n* **即时且全天候**：渣打银行首席经济学家温拓思认为，通过区块链技术可实现A方到B方或不同币种间的即时转账，且全天候无休，这将取代传统银行间的“隔夜结算” [文章 11]。\n\n**记录可追溯性方面：**\n* **不可篡改与完全可追溯**：温拓思指出，每笔交易都会留下不可篡改的记录，完全可追溯、可观察 [文章 11]。\n* **容易追踪**：恒星发展基金会的丹妮尔·迪克森指出，数字货币实际上“非常容易追踪”，从理论上讲这反而使犯罪行为更难实施 [文章 9]。"
+    },
+    {
+      "id": "financial-rebuild-05",
+      "question": "货币数字化要安全落地还依赖什么外部条件？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        10,
+        9,
+        11,
+        8
+      ],
+      "citation_article_ids": [
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 299,
+      "generation_latency_ms": 9808,
+      "total_latency_ms": 10107,
+      "estimated_input_tokens": 2282,
+      "estimated_output_tokens": 192,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容，渣打银行首席经济学家温拓思（温特斯）认为，货币数字化要在安全层面实现重大改进（安全落地），还依赖以下外部条件：\n\n1. **建立全球监管框架**：目前全球监管框架尚未建立，且该领域的监管发展会受到地缘政治格局的影响 [文章 11]。\n2. **基础网络本身的扩展**：现有区块链网络规模尚不足以应对未来所需的交易量，需要扩展基础网络（例如当前市场主流支付平台SWIFT正在开发自己的区块链支付网络） [文章 11]。"
+    },
+    {
+      "id": "financial-rebuild-06",
+      "question": "文中认为 SWIFT 和现有区块链网络面临什么扩展性问题？",
+      "expected_article_ids": [
+        11
+      ],
+      "expect_answerable": true,
+      "hit_article_ids": [
+        11,
+        9,
+        7,
+        8
+      ],
+      "citation_article_ids": [
+        11
+      ],
+      "retrieval_hit": true,
+      "citations_grounded": true,
+      "expected_citation": true,
+      "no_answer_correct": false,
+      "retrieval_latency_ms": 321,
+      "generation_latency_ms": 6960,
+      "total_latency_ms": 7281,
+      "estimated_input_tokens": 2039,
+      "estimated_output_tokens": 138,
+      "estimated_cost_cny": 0,
+      "answer": "根据文章内容，SWIFT 和现有区块链网络面临的扩展性问题如下：\n\n1. **现有网络规模不足**：现有区块链网络的规模尚不足以应对未来所需的交易量 [文章 11]。\n2. **需要基础网络扩展**：为应对上述交易量需求，需要进行“基础网络本身的扩展”，例如当前市场主流支付平台 SWIFT 正在开发自己的区块链支付网络 [文章 11]。"
+    },
+    {
+      "id": "no-answer-live-usd-cny",
+      "question": "今天美元兑人民币的实时汇率是多少？",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        8,
+        9,
+        7,
+        10
+      ],
+      "citation_article_ids": [
+        8,
+        9,
+        7,
+        10
+      ],
+      "retrieval_hit": false,
+      "citations_grounded": true,
+      "expected_citation": false,
+      "no_answer_correct": true,
+      "retrieval_latency_ms": 335,
+      "generation_latency_ms": 5338,
+      "total_latency_ms": 5673,
+      "estimated_input_tokens": 2192,
+      "estimated_output_tokens": 137,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容无法确定。提供的社区文章主要探讨互联网金融体系、数字货币的普惠应用、全球经济基础设施的转型以及宏观投资视角下的“安全货币”等话题，并未包含任何关于美元兑人民币汇率的数据。此外，现有社区文章无法确认当前的实时市场行情。\n\n参考来源：[文章 8]、[文章 9]、[文章 7]、[文章 10]"
+    },
+    {
+      "id": "no-answer-fed-decision",
+      "question": "美联储下周会把利率调整到多少？",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        7,
+        8,
+        11,
+        10
+      ],
+      "citation_article_ids": [
+        7,
+        8,
+        11,
+        10
+      ],
+      "retrieval_hit": false,
+      "citations_grounded": true,
+      "expected_citation": false,
+      "no_answer_correct": true,
+      "retrieval_latency_ms": 317,
+      "generation_latency_ms": 3590,
+      "total_latency_ms": 3907,
+      "estimated_input_tokens": 2145,
+      "estimated_output_tokens": 34,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容无法确定。\n\n参考来源：[文章 7]、[文章 8]、[文章 11]、[文章 10]"
+    },
+    {
+      "id": "no-answer-stock-pick",
+      "question": "现在最值得买入的股票是哪一只？",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        7,
+        10,
+        9,
+        8
+      ],
+      "citation_article_ids": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "retrieval_hit": false,
+      "citations_grounded": true,
+      "expected_citation": false,
+      "no_answer_correct": true,
+      "retrieval_latency_ms": 289,
+      "generation_latency_ms": 9847,
+      "total_latency_ms": 10137,
+      "estimated_input_tokens": 2190,
+      "estimated_output_tokens": 91,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容无法确定。提供的文章主要探讨全球经济基础设施、货币体系重构、数字货币（如稳定币）以及黄金等宏观议题 [文章 7] [文章 8] [文章 9] [文章 10]，并未提及或推荐任何具体值得买入的股票。"
+    },
+    {
+      "id": "no-answer-usdc-market-cap",
+      "question": "USDC 今天的市值是多少？",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        10,
+        8,
+        11,
+        9
+      ],
+      "citation_article_ids": [
+        8
+      ],
+      "retrieval_hit": false,
+      "citations_grounded": true,
+      "expected_citation": false,
+      "no_answer_correct": true,
+      "retrieval_latency_ms": 273,
+      "generation_latency_ms": 5179,
+      "total_latency_ms": 5453,
+      "estimated_input_tokens": 2273,
+      "estimated_output_tokens": 113,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容无法确定 USDC 今天的具体市值。\n\n提供的文章中仅提及 Circle 公司运营着全球最大的受监管稳定币 USDC [文章 8]，但并未包含任何关于 USDC 实时或具体市值的数据。此外，由于您的问题涉及实时行情，现有的社区文章无法确认当前的最新市场事实。"
+    },
+    {
+      "id": "no-answer-gold-price",
+      "question": "明天黄金现货价格会是多少？",
+      "expect_answerable": false,
+      "hit_article_ids": [
+        10,
+        11,
+        7
+      ],
+      "citation_article_ids": [
+        10,
+        11,
+        7
+      ],
+      "retrieval_hit": false,
+      "citations_grounded": true,
+      "expected_citation": false,
+      "no_answer_correct": true,
+      "retrieval_latency_ms": 589,
+      "generation_latency_ms": 5311,
+      "total_latency_ms": 5901,
+      "estimated_input_tokens": 1753,
+      "estimated_output_tokens": 154,
+      "estimated_cost_cny": 0,
+      "answer": "根据现有文章内容无法确定明天黄金现货价格会是多少。\n\n提供的文章主要探讨了地缘政治对货币体系的影响、黄金作为“安全投资”的宏观需求背景，以及金融体系向货币数字化和代币化重构的趋势 [文章 10] [文章 11] [文章 7]，但并未提供任何关于黄金现货价格的具体预测或实时行情数据。现有社区文章不能确认此类实时或近期的具体市场价格情况。"
+    }
+  ]
+}
